@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import avatar from './respresso/image/profile_avatar.svg';
+import './App.scss';
+import { FormattedHTMLMessage } from 'react-intl';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={avatar} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            <FormattedHTMLMessage id="profile.firstname" defaultMessage="profile.firstname not found" />
           </p>
           <a
             className="App-link"

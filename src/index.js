@@ -4,7 +4,28 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { IntlProvider, addLocaleData } from 'react-intl';
+import messages_en from './respresso/localization/localization-en.json';
+import messages_de from './respresso/localization/localization-de.json';
+import locale_en from 'react-intl/locale-data/en';
+import locale_de from 'react-intl/locale-data/de';
+import flatten from 'flat';
+
+addLocaleData([...locale_en, ...locale_de]);
+
+const messages = {
+  de: messages_de,
+  en: messages_en
+};
+let language = navigator.language.split(/[-_]/)[0];
+language = messages.hasOwnProperty(language) ? language : 'en';
+
+ReactDOM.render(
+  <IntlProvider locale={language} messages={flatten(messages[language])}>
+    <App />
+  </IntlProvider>,
+  document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
