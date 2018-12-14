@@ -1,5 +1,7 @@
 # Respresso React demo.
 
+You'll need java installed on your machine.
+
 ## Configuration
 
 In *respresso.json* you can customize:
