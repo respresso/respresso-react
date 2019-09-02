@@ -18,7 +18,7 @@ Respresso currently supports five types of resources:
 Using Respresso should be intuitive to anyone who has used npm before.
 Configurations are stored in the *respresso.json*, while your current assets’ metadata are stored in *respresso.lock*.
 
-> You'll need java installed on your machine.
+⚠️ You'll need java installed on your machine.
 
 ## Configuration
 
