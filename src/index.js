@@ -5,8 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import { IntlProvider, addLocaleData } from 'react-intl';
-import messages_en from './respresso/localization/localization-en.json';
-import messages_de from './respresso/localization/localization-de.json';
+import messages_en from './respresso/localization/respresso.strings-en';
 import locale_en from 'react-intl/locale-data/en';
 import locale_de from 'react-intl/locale-data/de';
 import flatten from 'flat';
@@ -14,7 +13,6 @@ import flatten from 'flat';
 addLocaleData([...locale_en, ...locale_de]);
 
 const messages = {
-  de: messages_de,
   en: messages_en
 };
 let language = navigator.language.split(/[-_]/)[0];
