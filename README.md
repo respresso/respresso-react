@@ -62,6 +62,15 @@ npm install respresso --dev
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Try it
+
+1. Install any packages that it depends on   
+```npm install```
+2. Sync resource files   
+```npm run sync```
+3. Start running the server  
+```npm run start```
+
 ## Available Scripts
 
 In the project directory, you can run:
