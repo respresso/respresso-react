@@ -9,7 +9,7 @@
     "react-dom": "^16.8.6",
     "react-intl": "^2.9.0",
     "react-scripts": "3.0.1",
-    "respresso": "^0.0.14"
+    "respresso": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
