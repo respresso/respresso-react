@@ -1,4 +1,4 @@
-[<div align="center"><img src="https://github.com/pontehu/respresso-react/blob/master/images/header_web.png" height="220" /></div>](https://respresso.io)  
+[<div align="center"><img src="https://github.com/pontehu/respresso-react/blob/cra-react-intl/images/header_web.png" height="220" /></div>](https://respresso.io)  
 
 # Respresso Web client [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Save%20development%20time%21%20Respresso%20automatically%20transforms%20and%20delivers%20your%20digital%20assets%20into%20your%20projects&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation)  
 
