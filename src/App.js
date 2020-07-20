@@ -28,7 +28,7 @@ class App extends Component {
                    href="#"><FormattedHTMLMessage id="header.who" defaultMessage="key not found" /></a>
               </div>
               <div className="col-md-6 col-sm-4 d-flex justify-content-end align-items-center">
-                <a className="text-muted github" href="https://github.com/pontehu">
+                <a className="text-muted github" href="https://github.com/respresso">
                   <img className="img-fluid" src={github} alt="github logo"/>
                 </a>
               </div>
@@ -55,7 +55,7 @@ class App extends Component {
           <div className="d-flex mt-5 justify-content-center">
             <div
                 className="col-lg-6 col-md-8 col-sm-12 py-2 px-3 d-flex justify-content-center rounded-lg shadow check-demo-container">
-              <div className="logo-image img-fluid w-px-50" alt="small logo"></div>
+              <div className="logo-image img-fluid w-px-50"></div>
               <div className="p-1 pl-3 align-self-center check-demo-text">
                 <div className="font-weight-bold text-bigger text-size-bigger"><FormattedHTMLMessage id="demo.title" defaultMessage="key not found" /></div>
                 <div><FormattedHTMLMessage id="demo.info" defaultMessage="key not found" /></div>
